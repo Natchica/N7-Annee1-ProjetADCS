@@ -45,4 +45,4 @@ for q = 1:n-1 %0
     pause(0.01);
 end
 
-save projection;
+save projection_masque;
