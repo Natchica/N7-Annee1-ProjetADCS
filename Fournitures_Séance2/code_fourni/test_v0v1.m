@@ -39,7 +39,7 @@ v = 1; % subspace iteration v1
 m = 20;
 
 % pourcentage de la trace que l'on veut atteindre (v1, v2, v3)
-percentage = .4;
+percentage = .1;
 
 genere = 0;
 [W, V, flag] = eigen_2022(imat, n, v, m, eps, maxit, percentage, [], genere);

@@ -51,6 +51,7 @@ function [ W, V, n_ev, itv, flag ] = power_v11( A, m, percentage, eps, maxit )
         % voir section 2.1.2 du sujet
         norme = norm(beta*v - z, 2)/norm(beta,2);
         nb_it = 1;
+        v = norm(v);
         
         while(norme > eps && nb_it < maxit)
           y = A*v;
